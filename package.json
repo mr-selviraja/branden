@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app": "start live-server",
+    "sass": "sass --watch ./styles.scss:./styles.css --no-source-map",
+    "dev": "concurrently \"npm run app\" \"npm run sass\""
+  },
+  "keywords": [],
+  "author": "Selviraja Pasagadugula",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "live-server": "^1.2.2",
+    "sass": "^1.70.0"
+  }
+}

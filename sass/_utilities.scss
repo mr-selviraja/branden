@@ -1,0 +1,25 @@
+@import './variables';
+
+// text sizes
+.text-normal {
+  font-size: 1.5rem;
+}
+
+// font family
+.font-regular {
+  font-family: $font-regular;
+}
+
+.font-accent {
+  font-family: $font-accent;
+}
+
+// colors
+.color-dark {
+  color: $dark;
+}
+
+// background colors
+.bg-primary-light {
+  background: $primary-light;
+}
